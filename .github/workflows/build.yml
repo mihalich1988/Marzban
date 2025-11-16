@@ -55,7 +55,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            gozargah/marzban:latest
-            gozargah/marzban:${{github.ref_name}}
-            ghcr.io/gozargah/marzban:latest
-            ghcr.io/gozargah/marzban:${{github.ref_name}}
+            mihalich1988/marzban:latest
+            mihalich1988/marzban:${{github.ref_name}}
+            ghcr.io/mihalich1988/marzban:latest
+            ghcr.io/mihalich1988/marzban:${{github.ref_name}}
